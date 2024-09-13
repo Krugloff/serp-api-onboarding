@@ -1,0 +1,51 @@
+GIT
+  remote: https://github.com/bruno-/fiber_scheduler
+  revision: 442188f8c752aa236eb3254d52b3dc762d75ac81
+  specs:
+    fiber_scheduler (0.13.0)
+
+GIT
+  remote: https://github.com/serpapi/serpapi-ruby
+  revision: 0a80c85c26b71d8da6d2b359998ed8f9f395ac39
+  specs:
+    serpapi (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.8)
+    google_search_results (2.2.0)
+    nokolexbor (0.5.4)
+    nokolexbor (0.5.4-arm64-darwin)
+    nokolexbor (0.5.4-x86_64-darwin)
+    nokolexbor (0.5.4-x86_64-linux)
+    oj (3.16.6)
+      bigdecimal (>= 3.0)
+      ostruct (>= 0.2)
+    ostruct (0.6.0)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  ruby
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  fiber_scheduler!
+  google_search_results
+  nokolexbor
+  oj
+  serpapi!
+
+RUBY VERSION
+   ruby 3.3.4p94
+
+BUNDLED WITH
+   2.5.17
